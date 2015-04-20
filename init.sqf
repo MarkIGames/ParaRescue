@@ -59,8 +59,8 @@ _unit setvariable ["hasHealAction", false, true];
 
 _unit addAction ["Treat Patient", yink_fnc_diag];
 
-//nul = [] execVM "sideMissions\initNatoSide.sqf";
-//nul = [] execVM "sideMissions\initCivySide.sqf";
+nul = [] execVM "civySideMissions\initCivySide.sqf";
+nul = [] execVM "natoSideMissions\initNatoSide.sqf";
 
 nul = [] execVM "prscripts\natoTimer.sqf";
 

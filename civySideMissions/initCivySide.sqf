@@ -45,9 +45,9 @@ while {true} do
 
 	switch (mission) do
 	{
-		case 0: { execVM "sideMissions\Objectives\AUSMD_killOfficer.sqf"; };
-		case 1: { execVM "sideMissions\Objectives\AUSMD_killAmmo.sqf"; };
-		case 2: { execVM "sideMissions\Objectives\AUSMD_destoryVehicle.sqf"; };
+		case 0: { execVM "civySideMissions\Objectives\AUSMD_killOfficer.sqf"; };
+		case 1: { execVM "civySideMissions\Objectives\AUSMD_killAmmo.sqf"; };
+		case 2: { execVM "civySideMissions\Objectives\AUSMD_destoryVehicle.sqf"; };
 	};
 	
 	waitUntil {!civysidemissionup};
