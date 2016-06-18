@@ -62,7 +62,5 @@ _unit addAction ["Treat Patient", yink_fnc_diag];
 nul = [] execVM "civySideMissions\initCivySide.sqf";
 nul = [] execVM "natoSideMissions\initNatoSide.sqf";
 
-nul = [] execVM "prscripts\natoTimer.sqf";
-
 islandStatusOn = false;
 islandStatusCount = 0;

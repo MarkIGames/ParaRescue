@@ -76,7 +76,7 @@ class Mission
 				class Item0
 				{
 					position[]={11632.461,22.948355,11921.066};
-					azimut=285.92822;
+					azimut=285.92801;
 					id=0;
 					side="WEST";
 					vehicle="B_recon_medic_F";
